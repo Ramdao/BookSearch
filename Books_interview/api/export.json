@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Harry Potter",
+    "author": "Jk",
+    "genre": "fantasy",
+    "publication_date": "2008-11-11",
+    "ISBN": "978-93-96055-02-6"
+  },
+  {
+    "id": 2,
+    "title": "Harry Potter",
+    "author": "Jk",
+    "genre": "fantasy",
+    "publication_date": "2008-11-11",
+    "ISBN": "928-93-96345-05-1"
+  },
+  {
+    "id": 3,
+    "title": "test",
+    "author": null,
+    "genre": "test",
+    "publication_date": "2024-12-12",
+    "ISBN": "test"
+  },
+  {
+    "id": 4,
+    "title": "DateChk",
+    "author": "format",
+    "genre": "check",
+    "publication_date": "2056-01-02",
+    "ISBN": "978-1-56619-909-4"
+  },
+  {
+    "id": 5,
+    "title": "ISBNchk",
+    "author": "format",
+    "genre": "check",
+    "publication_date": "2024-12-12",
+    "ISBN": "978-93-96055-02-6"
+  }
+]

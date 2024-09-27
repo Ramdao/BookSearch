@@ -14,9 +14,8 @@ function filter() {
 
 function filter_search() {
   const filterCriteria = document.getElementById("Search").value;
-  //document.getElementById("test").innerHTML = filterCriteria;
+  
   const searchValue = document.getElementById("value").value;
-  //document.getElementById("test").innerHTML = searchValue;
   if (!filterCriteria || !searchValue) {
     document.getElementById("result").innerHTML =
       "Please enter a filter and enter a search term.";
@@ -41,7 +40,7 @@ function filter_search() {
             response[i].title +
             " Genre: " +
             response[i].genre +
-            "Publication date: " +
+            " Publication date: " +
             response[i].publication_date +
             "ISBN: " +
             response[i].ISBN +
