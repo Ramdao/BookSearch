@@ -8,30 +8,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div class="navigation">
-        <button class="nav-button" style="margin-top: 100px;">Add book</button>
-        <button class="nav-button">Filter</button>
-        <button class="nav-button">Book List</button>
-        <button class="nav-button">Export</button>
+        <button class="nav-button" style="margin-top: 100px;" id="book" onclick="book()">Add book</button>
+        <button class="nav-button" id="filter" onclick="filter()">Filter</button>
+        <button class="nav-button" id="list"onclick="list()">Book List</button>
+        <button class="nav-button" id="Export" onclick="exportfile()">Export</button>
     </div>
-    <div class="banner">
+    <div class="banner" id="author">
            Books Database
     </div>
     
     <div class="input-area">
         <label>Title</label>
-        <input type="text" class="input-box">
-        <label>Author</label>
-        <input type="text" class="input-box">
+        <input type="text" class="input-box" id="title">
+        <label >Author</label>
+        <input type="text" class="input-box" id="author">
         <label>Genre</label>
-        <input type="text" class="input-box">
+        <input type="text" class="input-box" id="genre">
         <label>Publication date</label>
-        <input type="text" class="input-box">
+        <input type="text" class="input-box" id="publication_date" placeholder="YYYY-MM-DD">
         <label>ISBN</label>
-        <input type="text" class="input-box">
-        <button class="submit-button">Add book</button>
+        <input type="text" class="input-box" id="ISBN" placeholder="xxx-xx-xxxxx-xx-x">
+        <button class="submit-button" onclick="addbook()">Add book</button>
     </div>
+    <script src="./js/js.js"></script>
 </body>
 </html>
